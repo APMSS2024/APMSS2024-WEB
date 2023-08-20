@@ -1,0 +1,119 @@
+.menu{
+    background-color: darkslateblue;
+}
+.menu a{
+    font-size: 20px;
+    color:aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.menu a:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+.logo{
+    width: 50px;
+    margin: 10px 10px 0px 10px;
+}
+.titleimg{
+    width: 100%;
+}
+.introAPMSS{
+    padding: 20px;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    line-height: 1.75;
+    padding: 10px;
+}
+.theme{
+    padding: 20px;
+    background-color: rgb(165, 192, 247);
+}
+.goal{
+    padding: 20px;
+    background-color: aliceblue;
+}
+.block{
+    padding: 10px;
+    width: 33%;
+    box-sizing: border-box;
+    float: left;
+}
+.small{
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+.clearbox{
+    clear: both;
+    width: 100%;
+}
+.block p{
+    font-size: 15px;
+    line-height: 1.75;
+    padding: 20px 20px 10px 20px;
+}
+.contact{
+    padding: 20px;
+    background-color: darkslateblue;
+}
+.contact h1{
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.agenda{
+    padding: 20px;
+}
+.agenda h1{
+    text-align: center;
+}
+.agenda h2{
+    text-align: center;
+}
+.agenda img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.block2{
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.activity{
+    padding: 10px 20px 10px 20px;
+    background-color: aliceblue;
+}
+.activity1{
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.activity2{
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(195, 255, 252);
+}
+
+

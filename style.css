@@ -94,7 +94,7 @@ p{
 }
 .block2{
     padding: 10px;
-    width: 550px;
+    width: 500px;
     box-sizing: border-box;
     float: left;
 }
@@ -104,13 +104,13 @@ p{
 }
 .activity1{
     padding: 10px;
-    width: 550px;
+    width: 500px;
     box-sizing: border-box;
     float: left;
 }
 .activity2{
     padding: 10px;
-    width: 550px;
+    width: 500px;
     box-sizing: border-box;
     float: left;
     background-color: rgb(195, 255, 252);

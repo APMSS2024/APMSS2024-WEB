@@ -1,41 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>APMSS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--enable responsive viewpoint (for mobile devices)-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!--Bootstrap CSS-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet"> <!--Font: Noto Sans TC-->
+	<link rel="stylesheet" href="style.css"> <!--customed CSS-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> <!--Bootstrap JS-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> <!--Bootstrap JS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> <!--Bootstrap JS-->
+	<title>APMSS</title>
 </head>
 <body>
-    <div class="menu">
-        <img class="logo" src="img/logo.png" alt="fakeing">
-        <a href="index.html">Home</a>
-        <a href="activity.html">Theme & Activities</a>
-        <a href="agenda.html">Agenda</a>
-        <a href="registration.html">Registration</a>
-        <a href="sponsor.html">Sponsorship</a>
-        <a href="FAQ.html">FAQ</a>
+	<header id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="index.html">
+		  	<img src="img/logo.png">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2024 APMSS Taiwan</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="theme.html">Theme</a>
+		          <a class="dropdown-item" href="agenda.html">Agenda</a>
+		          <a class="dropdown-item" href="Activities.html">Activities</a>
+		          <a class="dropdown-item" href="Sponsorship.html">Sponsorship</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registration</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="information.html">Information</a>
+		          <a class="dropdown-item" href="faq.html">FAQ</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="form.html">Form</a> 
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</header>
+    <div class="box"></div>
+
+    <div class="normal">
+        <br><h1>報名</h1>
+        <h2>（到時候會附上連結和報名時間，早鳥報名在10月初）</h2>
     </div>
-    <div class="theme">
-        <h1>報名（到時候會附上連結和報名時間，早鳥報名在10月初）</h1>
-    </div>
-    <div class="contact">
-        <div class="block2">
-            <h1>聯絡我們</h1>
-            <p>Gmail: apmss2024@gmail.com</p>
-            <p>Facebook: APMSS - Asia-Pacific Medical Students' Symposium</p>
-            <p>Instagram: apmss_2024</p>
-            <p>地址： 國立臺灣大學10617 臺北市羅斯福路四段一號中華民國（台灣）</p>
-        </div>
-        <div class="block2">
-            <h1>活動資訊</h1>
-            <p>主辦單位：國立臺灣大學醫學院</p>
-            <p>活動時間：2024年1月16日至1月22日，共七日</p>
-            <p>活動地點：以國立臺灣大學城中校區醫學院為主</p>
-            <p>活動參與人員：合計約100人</p>
-        </div>
-        <div class="clearbox"></div>
-    </div>
+	<footer>
+		<section id="end">
+			<div class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 offset-md-1 text-left">
+                            <h3>聯絡我們</h3>
+                            <p>Gmail: apmss2024@gmail.com</p>
+                            <p>Facebook: APMSS - Asia-Pacific Medical Students' Symposium</p>
+                            <p>Instagram: apmss_2024</p>
+                            <p>地址： 國立臺灣大學10617 臺北市羅斯福路四段一號中華民國（台灣）</p>
+						</div>
+						<div class="col-md-5 text-left">
+                            <h3>活動資訊</h3>
+                            <p>主辦單位：國立臺灣大學醫學院</p>
+                            <p>活動時間：2024年1月16日至1月22日，共七日</p>
+                            <p>活動地點：以國立臺灣大學城中校區醫學院為主</p>
+                            <p>活動參與人員：合計約100人</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
 </body>
 </html>

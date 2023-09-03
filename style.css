@@ -74,6 +74,10 @@ header nav img{
 header li{
 	margin: 0 10px;	
 }
+img{
+	max-width: 100%;
+    vertical-align: top;
+}
 
 @media screen and (min-width: 768px){
 	#intro .jumbotron{
@@ -100,6 +104,8 @@ header li{
 	.content{
 		width: 80vw;
 		text-align: center;
+		margin: auto;
+		padding: 20px 0px;
 	}
 	h1{
 		font-size: 30px;
@@ -120,6 +126,12 @@ header li{
 		text-align: justify;
 		text-justify: inter-word;
 		padding: 5px 50px;
+	}
+	#activity img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
 	}
 
 	.topic1{
@@ -257,8 +269,10 @@ header li{
 		width: 0vw;
 	}
 	.content{
-		width: 100vw;
+		width: 90vw;
 		text-align: center;
+		margin: auto;
+		padding: 20px 0px;
 	}
 	#intro .jumbotron{
 		height: 50vh;
@@ -277,6 +291,12 @@ header li{
 	}
 	.mob-btn img{
 		width: 100px;
+	}
+	#activity img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
 	}
 
 	h1{
@@ -427,28 +447,12 @@ header li{
 	}
 }
 
-img{
-	max-width: 100%;
-    vertical-align: top;
-}
 .box{
     height: 95px;
-}
-
-#activity img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
 }
 #end .jumbotron{
 	background-color: rgb(55, 45, 115);
 	color: white;
-}
-.content{
-	width: 80%;
-	margin: auto;
-	padding: 20px 0px;
 }
 .col-md-5{
 	padding: 20px;

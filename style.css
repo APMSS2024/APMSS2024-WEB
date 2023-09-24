@@ -200,7 +200,7 @@ img{
 	}
 	.longtitle{
 		display: inline-block;
-		width: 250px;
+		width: 260px;
 		vertical-align: middle;
 	}
 	.icon{
@@ -239,6 +239,9 @@ img{
 	margin: auto;
     margin-bottom: 20px;
     width: 80%;
+}
+.normal p{
+	text-align: center;
 }
 .regis{
 	display: inline-block;
